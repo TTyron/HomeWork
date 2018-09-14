@@ -1,0 +1,13 @@
+¡®hello,world¡¯.repalce('l','*')
+
+
+'Good!'.lower()*3
+'Good!'.lower()+'Good!'.lower()+'Good!'.lower()
+
+
+'FhlqoWe92QbvC'.swapcase()
+
+
+import re
+a='FhlqoWe92QbvC'
+print(re.findall('(\d+)',a))
