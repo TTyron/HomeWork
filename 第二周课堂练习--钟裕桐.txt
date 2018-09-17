@@ -37,7 +37,7 @@ def check(value):
             en +=1
         else:
             orther +=1
-    return ("Êı×Ö£¬¿Õ¸ñ£¬×ÖÄ¸£¬ÆäËû·Ö±ğÓĞ£º",(num,sp,en,orther))
+    return ("æ•°å­—ï¼Œç©ºæ ¼ï¼Œå­—æ¯ï¼Œå…¶ä»–åˆ†åˆ«æœ‰ï¼š",(num,sp,en,orther))
 
 print(check('sadfas4654#@!$@   '))
 
@@ -49,8 +49,7 @@ def check_strip(value):
             value.strip()
         else:
             print(i,end="")
-
-			
+	    
 check_strip('asdfasd  adfasd')
 
 
@@ -59,10 +58,10 @@ import random
 def think(value):
     result = random.randint(0,20)
     if value < result:
-        print("Äú²ÂĞ¡ÁË")
+        print("æ‚¨çŒœå°äº†")
     elif value == result:
-        print("Äú²Â¶ÔÁË")
+        print("æ‚¨çŒœå¯¹äº†")
     else:
-        print("Äú²Â´óÁË")
+        print("æ‚¨çŒœå¤§äº†")
 
 think(10)
