@@ -1,0 +1,68 @@
+'hello,world'.replace('l','*')
+
+
+'Good!'.lower()*3
+'Good!'.lower()+'Good!'.lower()+'Good!'.lower()
+
+
+'FhlqoWe92QbvC'.swapcase()
+
+
+import re
+a='FhlqoWe92QbvC'
+print(re.findall('(\d+)',a))
+
+
+lst = [2,0,3,6,9]
+sorted(lst)
+
+
+l=[2,3,1,2,4,3]
+del l[3],l[4]
+print(l)
+
+
+
+def check(value):
+    num=0
+    en=0
+    sp=0
+    orther=0
+    for i in value:
+        if i.isdigit():
+            num +=1
+        elif i.isspace():
+            sp +=1
+        elif i.isalpha():
+            en +=1
+        else:
+            orther +=1
+    return ("数字，空格，字母，其他分别有：",(num,sp,en,orther))
+
+print(check('sadfas4654#@!$@   '))
+
+
+
+def check_strip(value):
+    for i in value:
+        if i.isspace():
+            value.strip()
+        else:
+            print(i,end="")
+
+			
+check_strip('asdfasd  adfasd')
+
+
+
+import random
+def think(value):
+    result = random.randint(0,20)
+    if value < result:
+        print("您猜小了")
+    elif value == result:
+        print("您猜对了")
+    else:
+        print("您猜大了")
+
+think(10)
