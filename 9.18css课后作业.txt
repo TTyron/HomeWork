@@ -1,0 +1,33 @@
+1.在页面中嵌套或直接放入任何空标签，都不会影响原来的布局。
+但也可以不让它合并：
+	1）.给父元素定义上边距或上内边距；
+	2）.给父元素添加overflow:hidden;
+
+
+2.在指定内容前或内容后插入一个包含content属性指定内容的行内元素；
+content属性值可为空；
+
+3.<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+.f{ 
+width:300px;
+height:200px; 
+background:#099;
+display:block; 
+position:absolute; 
+top:50%; 
+left:50%; 
+transform: translate(-50%,-50%);
+}
+</style>
+</head>
+
+<body>
+<div class="f">
+</div>
+</body>
+</html>
