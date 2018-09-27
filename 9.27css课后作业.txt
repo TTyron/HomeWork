@@ -1,0 +1,41 @@
+1.前提是先把基础打好吧，不希望每一种都只会一点，偏向一个方向，目前还是比较喜欢后端，想学安卓开发（即使还是个小白），小程序也是可以的，但更喜欢安卓开发，不希望毕业后一无所有。
+
+2.对于目前的css+html，看的懂代码，知道其中一些比较重要的原理就行了吧。
+
+3.如果可以的话，小程序的基本页面应该有。
+
+4.<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+table{ float:left; vertical-align:middle; font-size:16px; color:#333;}
+.before:before{ content:"*"; color:#F00; vertical-align:middle; margin-left:-6px;}
+input{ width:190px; height:30px; margin-left:25px; font-size:19px;}
+td{ line-height:45px;}
+span{ font-size:13px; margin:6px;}
+.submit{ background:#F00; border:none; color:#FFF; position:relative; left:67px; width:175px; height:35px; font-size:16px;}
+</style>
+</head>
+
+<body>
+<table>
+	<tr>
+    	<td class="before">邮箱</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+    	<td class="before">密码</td>
+        <td><input type="password"><span>请输入6-16位密码，不能使用空格</span></td>
+    </tr>
+    <tr>
+    	<td class="phone">手机号码</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+    	<td colspan="2"><input type="submit" class="submit" value="立即注册"></td>
+    </tr>
+</table>
+</body>
+</html>
